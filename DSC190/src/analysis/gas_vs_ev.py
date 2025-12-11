@@ -74,7 +74,7 @@ def main():
     #    --> restrict to 2020–2023 to avoid collinearity issues
     # ===========================================================================================================
     ols_data = (
-        merged[merged["year"] >= 2020]
+        merged[merged["year"] >= 2016]
         .dropna(subset=["ev_per_1000", "gas_real_2023"])
         .copy()
     )
