@@ -41,9 +41,8 @@ def main():
             "will be noisy."
         )
 
-
     # ===========================================================================================================
-    # 2. Correlations in levels
+    # 2. Correlations in levels (use full 2016–2023)
     # ===========================================================================================================
     pearson_r = merged["gas_real_2023"].corr(merged["ev_per_1000"], method="pearson")
     spearman_r = merged["gas_real_2023"].corr(merged["ev_per_1000"], method="spearman")
@@ -52,9 +51,8 @@ def main():
     print(f"Pearson r(ev_per_1000, gas_real_2023)  = {pearson_r:.3f}")
     print(f"Spearman r(ev_per_1000, gas_real_2023) = {spearman_r:.3f}")
 
-
     # ===========================================================================================================
-    # 3. Correlations in growth rates (year-to-year % change)
+    # 3. Correlations in growth rates (year-to-year % change) – full 2016–2023
     # ===========================================================================================================
     merged["ev_growth"] = merged["ev_per_1000"].pct_change()
     merged["gas_growth"] = merged["gas_real_2023"].pct_change()
@@ -71,22 +69,26 @@ def main():
     else:
         print("Not enough years to compute growth-rate correlations.")
 
-
     # ===========================================================================================================
     # 4. Simple OLS: EV adoption vs gas price + time trend
+    #    --> restrict to 2020–2023 to avoid collinearity issues
     # ===========================================================================================================
-    # Keep only rows with complete data
-    reg_data = merged.dropna(subset=["ev_per_1000", "gas_real_2023"]).copy()
+    ols_data = (
+        merged[merged["year"] >= 2020]
+        .dropna(subset=["ev_per_1000", "gas_real_2023"])
+        .copy()
+    )
+    ols_years = sorted(ols_data["year"].unique())
 
     # Center year so intercept is more interpretable
-    reg_data["year_centered"] = reg_data["year"] - reg_data["year"].mean()
+    ols_data["year_centered"] = ols_data["year"] - ols_data["year"].mean()
 
     formula = "ev_per_1000 ~ gas_real_2023 + year_centered"
-    model = smf.ols(formula, data=reg_data).fit()
+    model = smf.ols(formula, data=ols_data).fit()
 
-    print("\n=== OLS: ev_per_1000 ~ gas_real_2023 + year_centered ===")
+    print("\n=== OLS: ev_per_1000 ~ gas_real_2023 + year_centered (years >= 2020) ===")
+    print("Years in OLS:", ols_years)
     print(model.summary())
-
 
     # ===========================================================================================================
     # 5. Save summary to text file for the report
@@ -94,7 +96,8 @@ def main():
     out_path = TEXT_SUMMARIES_DIR / "gas_vs_ev_summary.txt"
     with open(out_path, "w") as f:
         f.write("=== Gas vs EV adoption (national series) ===\n\n")
-        f.write("Years used: " + ", ".join(map(str, merged["year"].tolist())) + "\n\n")
+        f.write("Years used for correlations: " + ", ".join(map(str, merged["year"].tolist())) + "\n")
+        f.write("Years used for OLS: " + ", ".join(map(str, ols_years)) + "\n\n")
 
         f.write("Correlations in levels:\n")
         f.write(f"  Pearson r = {pearson_r:.3f}\n")
@@ -107,7 +110,7 @@ def main():
         else:
             f.write("Not enough years for growth-rate correlations.\n\n")
 
-        f.write("OLS regression: ev_per_1000 ~ gas_real_2023 + year_centered\n\n")
+        f.write("OLS regression: ev_per_1000 ~ gas_real_2023 + year_centered (2020–2023)\n\n")
         f.write(model.summary().as_text())
 
     print(f"\nSaved gas vs ev summary to {out_path}")

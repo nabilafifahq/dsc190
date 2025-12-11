@@ -42,7 +42,7 @@ def main():
         .astype(float)
     )
 
-    gas = gas[gas["year"].between(2020, 2023)]
+    gas = gas[gas["year"].between(2016, 2023)]
 
     gas.to_csv(GAS_CLEAN_FILE, index=False)
     print(f"Saved clean gas price data to {GAS_CLEAN_FILE}")

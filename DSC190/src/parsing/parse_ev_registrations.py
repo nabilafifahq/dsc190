@@ -2,6 +2,10 @@ import pandas as pd
 from src.config import RAW_DIR, EV_REG_CLEAN_FILE
 
 YEAR_FILES = {
+    2016: "ev_registrations_2016.csv",
+    2017: "ev_registrations_2017.csv",
+    2018: "ev_registrations_2018.csv",
+    2019: "ev_registrations_2019.csv",
     2020: "ev_registrations_2020.csv",
     2021: "ev_registrations_2021.csv",
     2022: "ev_registrations_2022.csv",

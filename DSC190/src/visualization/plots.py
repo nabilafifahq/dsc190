@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from src.config import PANEL_FILE, PROCESSED_DIR, GAS_CLEAN_FILE
+from src.config import PANEL_FILE, FIGURES_DIR, GAS_CLEAN_FILE
 
 
 def build_national_ev_gas(panel: pd.DataFrame, gas: pd.DataFrame) -> pd.DataFrame:
@@ -71,7 +71,7 @@ def plot_ev_gas_timeseries(merged: pd.DataFrame) -> None:
     ax1.legend(lines + lines2, labels + labels2, loc="upper left")
 
     fig.tight_layout()
-    out_path = PROCESSED_DIR / "ev_gas_timeseries.png"
+    out_path = FIGURES_DIR / "ev_gas_timeseries.png"
     plt.savefig(out_path, dpi=150)
     print(f"Saved {out_path}")
     plt.close(fig)
@@ -102,7 +102,7 @@ def plot_ev_vs_gas_scatter_levels(merged: pd.DataFrame) -> None:
     plt.title("National EV Adoption vs Gas Price (Levels)")
     plt.tight_layout()
 
-    out_path = PROCESSED_DIR / "ev_vs_gas_scatter_levels.png"
+    out_path = FIGURES_DIR / "ev_vs_gas_scatter_levels.png"
     plt.savefig(out_path, dpi=150)
     print(f"Saved {out_path}")
     plt.close()
@@ -138,7 +138,7 @@ def plot_ev_vs_gas_scatter_growth(merged: pd.DataFrame) -> None:
     plt.title("EV Adoption vs Gas Price (Growth Rates)")
     plt.tight_layout()
 
-    out_path = PROCESSED_DIR / "ev_vs_gas_scatter_growth.png"
+    out_path = FIGURES_DIR / "ev_vs_gas_scatter_growth.png"
     plt.savefig(out_path, dpi=150)
     print(f"Saved {out_path}")
     plt.close()
@@ -169,7 +169,7 @@ def lineplot_top_states_ev(panel: pd.DataFrame, top_n: int = 5) -> None:
     plt.xlabel("Year")
     plt.tight_layout()
 
-    out_path = PROCESSED_DIR / "ev_per_1000_top_states.png"
+    out_path = FIGURES_DIR / "ev_per_1000_top_states.png"
     plt.savefig(out_path, dpi=150)
     print(f"Saved {out_path}")
     plt.close()
@@ -189,7 +189,7 @@ def scatter_ports_vs_ev(panel: pd.DataFrame) -> None:
     plt.title("EV Adoption vs Public Charging Ports (State-Year)")
     plt.tight_layout()
 
-    out_path = PROCESSED_DIR / "ports_vs_ev_scatter.png"
+    out_path = FIGURES_DIR / "ports_vs_ev_scatter.png"
     plt.savefig(out_path, dpi=150)
     print(f"Saved {out_path}")
     plt.close()

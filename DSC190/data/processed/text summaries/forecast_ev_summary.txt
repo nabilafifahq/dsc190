@@ -1,0 +1,23 @@
+RQ3: Short-run EV adoption forecasts (2020–2023-based)
+-----------------------------------------------------
+
+This summary compares national EV adoption forecasts (EVs per 1,000 residents, averaged across states) under:
+  (1) a baseline charging-growth scenario, and
+  (2) an accelerated charging-growth scenario.
+
+Forecast horizon: 2024–2028
+
+Final-year national EV adoption (EVs per 1,000 residents):
+  Baseline scenario    : 152.66
+  Accelerated scenario : 200.83
+  Relative lift in 2028 (accelerated vs baseline): 31.6%
+
+Approximate compound annual growth from 2023 to final year:
+  Baseline CAGR   : nan% per year
+  Accelerated CAGR: nan% per year
+
+Interpretation (informal):
+- Over 2024–2028, both scenarios imply continued growth in EV adoption relative to 2023.
+- The accelerated scenario reaches a higher national EVs-per-1,000 level than the baseline, summarizing how faster infrastructure
+  build-out could be associated with higher short-run EV penetration.
+- These are short-run, scenario-based projections rather than precise long-run predictions.

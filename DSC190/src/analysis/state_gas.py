@@ -14,9 +14,6 @@ def run_state_gas_fe():
     panel = pd.read_csv(PANEL_FILE)
     df = panel.copy()
 
-    # Restrict to years where you trust both EV and gas data
-    df = df[df["year"].between(2020, 2023)]
-
     # Keep needed columns and drop missing
     cols = ["state", "year", "ev_per_1000", "gas_real_2023"]
     df = df[cols].dropna()

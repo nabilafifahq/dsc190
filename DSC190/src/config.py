@@ -19,6 +19,10 @@ for d in (CLEANED_DIR, FIGURES_DIR, FORECAST_DIR, TEXT_SUMMARIES_DIR):
 
 # Central place for raw file names
 PORT_FILES = {
+    2016: RAW_DIR / "2016_ports.csv",
+    2017: RAW_DIR / "2017_ports.csv",
+    2018: RAW_DIR / "2018_ports.csv",
+    2019: RAW_DIR / "2019_ports.csv",
     2020: RAW_DIR / "2020_ports.csv",
     2021: RAW_DIR / "2021_ports.csv",
     2022: RAW_DIR / "2022_ports.csv",

@@ -1,24 +1,25 @@
 === Gas vs EV adoption (national series) ===
 
-Years used: 2020, 2021, 2022, 2023
+Years used for correlations: 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+Years used for OLS: 2020, 2021, 2022, 2023
 
 Correlations in levels:
-  Pearson r = 0.597
-  Spearman r = 0.800
+  Pearson r = nan
+  Spearman r = -0.152
 
 Correlations in growth rates (year-to-year % change):
-Pearson r = 0.346
-Spearman r = -0.500
+  Pearson r = 0.628
+  Spearman r = 0.400
 
-OLS regression: ev_per_1000 ~ gas_real_2023 + year_centered
+OLS regression: ev_per_1000 ~ gas_real_2023 + year_centered (2020–2023)
 
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:            ev_per_1000   R-squared:                       0.986
 Model:                            OLS   Adj. R-squared:                  0.957
 Method:                 Least Squares   F-statistic:                     34.57
-Date:                Wed, 10 Dec 2025   Prob (F-statistic):              0.119
-Time:                        11:43:56   Log-Likelihood:                -4.1828
+Date:                Thu, 11 Dec 2025   Prob (F-statistic):              0.119
+Time:                        01:35:25   Log-Likelihood:                -4.1828
 No. Observations:                   4   AIC:                             14.37
 Df Residuals:                       1   BIC:                             12.52
 Df Model:                           2                                         

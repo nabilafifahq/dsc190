@@ -1,4 +1,224 @@
 state,ports_total,year
+Alabama,227.0,2016
+Alaska,5.0,2016
+Arizona,988.0,2016
+Arkansas,89.0,2016
+California,13655.0,2016
+Colorado,978.0,2016
+Connecticut,725.0,2016
+Delaware,67.0,2016
+Florida,2091.0,2016
+Georgia,1493.0,2016
+Hawaii,566.0,2016
+Idaho,133.0,2016
+Illinois,1109.0,2016
+Indiana,388.0,2016
+Iowa,216.0,2016
+Kansas,725.0,2016
+Kentucky,167.0,2016
+Louisiana,155.0,2016
+Maine,181.0,2016
+Maryland,1129.0,2016
+Massachusetts,1243.0,2016
+Michigan,1122.0,2016
+Minnesota,687.0,2016
+Mississippi,64.0,2016
+Missouri,1155.0,2016
+Montana,76.0,2016
+Nebraska,116.0,2016
+Nevada,474.0,2016
+New Hampshire,181.0,2016
+New Jersey,494.0,2016
+New Mexico,135.0,2016
+New York,1677.0,2016
+North Carolina,1015.0,2016
+North Dakota,9.0,2016
+Ohio,499.0,2016
+Oklahoma,103.0,2016
+Oregon,1249.0,2016
+Pennsylvania,654.0,2016
+Rhode Island,201.0,2016
+South Carolina,364.0,2016
+South Dakota,40.0,2016
+Tennessee,970.0,2016
+Texas,2386.0,2016
+Utah,291.0,2016
+Vermont,380.0,2016
+Virginia,991.0,2016
+Washington,1791.0,2016
+West Virginia,96.0,2016
+Wisconsin,445.0,2016
+Wyoming,63.0,2016
+Total,44299.0,2016
+(a) Includes legacy chargers but does not include residential electric vehicle charging infrastructure.,,2016
+(b) Primary propane stations offer vehicle-specific fueling capabilities. Secondary propane stations have fuel available for use in vehicles but limited vehicle fueling services.,,2016
+"(c) Retail hydrogen stations accept payment at the point of sale. Non-retail hydrogen stations are only available to a certain subset of customers (e.g., require an access card, PIN, or training).",,2016
+"(d) Totals are the number of station locations for all fuel types combined. Individual stations count multiple times if the station offers more than one fuel type. For electric, the total includes EVSE ports rather than station locations. For hydrogen, the total includes all (retail and non-retail) stations. For propane, the total includes all (primary and secondary) stations.",,2016
+Alabama,319.0,2017
+Alaska,11.0,2017
+Arizona,1041.0,2017
+Arkansas,112.0,2017
+California,16111.0,2017
+Colorado,1401.0,2017
+Connecticut,782.0,2017
+Delaware,113.0,2017
+Florida,2508.0,2017
+Georgia,1882.0,2017
+Hawaii,626.0,2017
+Idaho,171.0,2017
+Illinois,1205.0,2017
+Indiana,399.0,2017
+Iowa,258.0,2017
+Kansas,742.0,2017
+Kentucky,191.0,2017
+Louisiana,195.0,2017
+Maine,216.0,2017
+Maryland,1360.0,2017
+Massachusetts,1474.0,2017
+Michigan,1206.0,2017
+Minnesota,760.0,2017
+Mississippi,116.0,2017
+Missouri,1558.0,2017
+Montana,84.0,2017
+Nebraska,163.0,2017
+Nevada,604.0,2017
+New Hampshire,189.0,2017
+New Jersey,553.0,2017
+New Mexico,165.0,2017
+New York,1952.0,2017
+North Carolina,1352.0,2017
+North Dakota,15.0,2017
+Ohio,743.0,2017
+Oklahoma,137.0,2017
+Oregon,1345.0,2017
+Pennsylvania,770.0,2017
+Rhode Island,213.0,2017
+South Carolina,480.0,2017
+South Dakota,47.0,2017
+Tennessee,1036.0,2017
+Texas,2654.0,2017
+Utah,379.0,2017
+Vermont,426.0,2017
+Virginia,1094.0,2017
+Washington,2136.0,2017
+West Virginia,199.0,2017
+Wisconsin,489.0,2017
+Wyoming,91.0,2017
+Total,52337.0,2017
+(a) Includes legacy chargers but does not include residential electric vehicle charging infrastructure.,,2017
+(b) Primary propane stations offer vehicle-specific fueling capabilities. Secondary propane stations have fuel available for use in vehicles but limited vehicle fueling services.,,2017
+"(c) Retail hydrogen stations accept payment at the point of sale. Non-retail hydrogen stations are only available to a certain subset of customers (e.g., require an access card, PIN, or training).",,2017
+"(d) Totals are the number of station locations for all fuel types combined. Individual stations count multiple times if the station offers more than one fuel type. For electric, the total includes EVSE ports rather than station locations. For hydrogen, the total includes all (retail and non-retail) stations. For propane, the total includes all (primary and secondary) stations.",,2017
+Alabama,395.0,2018
+Alaska,11.0,2018
+Arizona,1227.0,2018
+Arkansas,124.0,2018
+California,21166.0,2018
+Colorado,1788.0,2018
+Connecticut,837.0,2018
+Delaware,133.0,2018
+Florida,3027.0,2018
+Georgia,2188.0,2018
+Hawaii,536.0,2018
+Idaho,174.0,2018
+Illinois,1399.0,2018
+Indiana,489.0,2018
+Iowa,296.0,2018
+Kansas,783.0,2018
+Kentucky,221.0,2018
+Louisiana,213.0,2018
+Maine,264.0,2018
+Maryland,1752.0,2018
+Massachusetts,1794.0,2018
+Michigan,1382.0,2018
+Minnesota,788.0,2018
+Mississippi,119.0,2018
+Missouri,1675.0,2018
+Montana,96.0,2018
+Nebraska,195.0,2018
+Nevada,659.0,2018
+New Hampshire,228.0,2018
+New Jersey,749.0,2018
+New Mexico,181.0,2018
+New York,2562.0,2018
+North Carolina,1488.0,2018
+North Dakota,28.0,2018
+Ohio,949.0,2018
+Oklahoma,167.0,2018
+Oregon,1544.0,2018
+Pennsylvania,985.0,2018
+Rhode Island,246.0,2018
+South Carolina,554.0,2018
+South Dakota,77.0,2018
+Tennessee,1145.0,2018
+Texas,3138.0,2018
+Utah,553.0,2018
+Vermont,535.0,2018
+Virginia,1446.0,2018
+Washington,2573.0,2018
+West Virginia,212.0,2018
+Wisconsin,557.0,2018
+Wyoming,121.0,2018
+Total,64106.0,2018
+(a) Includes legacy chargers but does not include residential electric vehicle charging infrastructure.,,2018
+(b) Primary propane stations offer vehicle-specific fueling capabilities. Secondary propane stations have fuel available for use in vehicles but limited vehicle fueling services.,,2018
+"(c) Retail hydrogen stations accept payment at the point of sale. Non-retail hydrogen stations are only available to a certain subset of customers (e.g., require an access card, PIN, or training).",,2018
+"(d) Totals are the number of station locations for all fuel types combined. Individual stations count multiple times if the station offers more than one fuel type. For electric, the total includes EVSE ports rather than station locations. For hydrogen, the total includes all (retail and non-retail) stations. For propane, the total includes all (primary and secondary) stations.",,2018
+Alabama,506.0,2019
+Alaska,34.0,2019
+Arizona,1476.0,2019
+Arkansas,290.0,2019
+California,27199.0,2019
+Colorado,2516.0,2019
+Connecticut,1048.0,2019
+Delaware,172.0,2019
+Florida,4562.0,2019
+Georgia,2939.0,2019
+Hawaii,666.0,2019
+Idaho,216.0,2019
+Illinois,1864.0,2019
+Indiana,614.0,2019
+Iowa,348.0,2019
+Kansas,904.0,2019
+Kentucky,315.0,2019
+Louisiana,293.0,2019
+Maine,433.0,2019
+Maryland,2110.0,2019
+Massachusetts,2455.0,2019
+Michigan,1429.0,2019
+Minnesota,1051.0,2019
+Mississippi,292.0,2019
+Missouri,1895.0,2019
+Montana,137.0,2019
+Nebraska,238.0,2019
+Nevada,927.0,2019
+New Hampshire,244.0,2019
+New Jersey,1297.0,2019
+New Mexico,245.0,2019
+New York,4531.0,2019
+North Carolina,1903.0,2019
+North Dakota,46.0,2019
+Ohio,1443.0,2019
+Oklahoma,309.0,2019
+Oregon,1895.0,2019
+Pennsylvania,1475.0,2019
+Rhode Island,407.0,2019
+South Carolina,643.0,2019
+South Dakota,127.0,2019
+Tennessee,1207.0,2019
+Texas,4009.0,2019
+Utah,950.0,2019
+Vermont,664.0,2019
+Virginia,2056.0,2019
+Washington,3206.0,2019
+West Virginia,244.0,2019
+Wisconsin,711.0,2019
+Wyoming,159.0,2019
+Total,85253.0,2019
+(a) Includes legacy chargers but does not include residential electric vehicle charging infrastructure.,,2019
+(b) Primary propane stations offer vehicle-specific fueling capabilities. Secondary propane stations have fuel available for use in vehicles but limited vehicle fueling services.,,2019
+"(c) Retail hydrogen stations accept payment at the point of sale. Non-retail hydrogen stations are only available to a certain subset of customers (e.g., require an access card, PIN, or training).",,2019
+"(d) Totals are the number of station locations for all fuel types combined. Individual stations count multiple times if the station offers more than one fuel type. For electric, the total includes EVSE ports rather than station locations. For hydrogen, the total includes all (retail and non-retail) stations. For propane, the total includes all (primary and secondary) stations.",,2019
 Alabama,598.0,2020
 Alaska,68.0,2020
 Arizona,1788.0,2020

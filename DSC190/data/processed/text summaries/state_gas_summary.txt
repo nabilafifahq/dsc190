@@ -6,8 +6,8 @@ Formula: log_ev_per_1000 ~ log_gas_real_2023 + year_centered + C(state)
 Dep. Variable:        log_ev_per_1000   R-squared:                       0.994
 Model:                            OLS   Adj. R-squared:                  0.991
 Method:                 Least Squares   F-statistic:                     1776.
-Date:                Wed, 10 Dec 2025   Prob (F-statistic):           3.65e-47
-Time:                        13:30:53   Log-Likelihood:                 238.94
+Date:                Thu, 11 Dec 2025   Prob (F-statistic):           3.65e-47
+Time:                        01:08:49   Log-Likelihood:                 238.94
 No. Observations:                 204   AIC:                            -371.9
 Df Residuals:                     151   BIC:                            -196.0
 Df Model:                          52                                         
